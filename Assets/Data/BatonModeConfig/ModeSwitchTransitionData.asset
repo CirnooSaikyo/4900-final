@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84170040a44688247bb99c4882e95c43, type: 3}
+  m_Name: ModeSwitchTransitionData
+  m_EditorClassIdentifier: Assembly-CSharp::ModeSwitchTransitionData
+  nearToFarHorizontalRotation: {x: 90, y: 0, z: 0}
+  nearToFarTiltDuration: 0.15
+  nearToFarSpinCount: 2
+  nearToFarFlyDuration: 0.5
+  nearToFarDamageRadius: 2.5
+  nearToFarKnockbackForce: 8
+  nearToFarDamage: 20
+  farToNearHorizontalRotation: {x: 90, y: 0, z: 0}
+  farToNearTiltDuration: 0.12
+  farToNearRushDuration: 0.35
+  farToNearCheckInterval: 0.08
+  farToNearDamageRadius: 1
+  farToNearDamage: 15
+  farToNearKnockbackForce: 4
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 128

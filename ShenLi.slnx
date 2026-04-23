@@ -1,0 +1,20 @@
+﻿<Solution>
+  <Project Path="UniGLTF.csproj" />
+  <Project Path="Kybernetik.Animancer.csproj" />
+  <Project Path="Kybernetik.Animancer.Editor.csproj" />
+  <Project Path="UniGLTF.Editor.csproj" />
+  <Project Path="UniGLTF.Tests.csproj" />
+  <Project Path="UniGLTF.Utils.csproj" />
+  <Project Path="UniGLTF.UniUnlit.Editor.csproj" />
+  <Project Path="UniHumanoid.csproj" />
+  <Project Path="SpringBoneJobs.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="UniHumanoid.Editor.csproj" />
+  <Project Path="DOTween.Modules.csproj" />
+  <Project Path="Kybernetik.Animancer.FSM.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
+  <Project Path="UniGLTF.UniUnlit.csproj" />
+  <Project Path="DOTweenPro.EditorScripts.csproj" />
+  <Project Path="DOTweenPro.Scripts.csproj" />
+  <Project Path="UniHumanoid.Editor.Tests.csproj" />
+</Solution>

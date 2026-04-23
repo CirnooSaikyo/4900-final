@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6269003b71a63354288218717b8a9d26, type: 3}
+  m_Name: Ult
+  m_EditorClassIdentifier: Assembly-CSharp::ConductorUltimateConfig
+  combinations:
+  - combination: 3
+    effectName: 
+    energyCost: 50
+    effectPrefab: {fileID: 3236925802325400577, guid: 10203f723879b204b993021890109195, type: 3}
+  - combination: 5
+    effectName: 
+    energyCost: 50
+    effectPrefab: {fileID: 1220271525631341368, guid: aa71dc4e95b252b4e94db32f20ef7278, type: 3}
+  - combination: 6
+    effectName: 
+    energyCost: 50
+    effectPrefab: {fileID: 2348747750762630054, guid: aa50a6bad649bf344ac398b21563d120, type: 3}
+  - combination: 7
+    effectName: 
+    energyCost: 100
+    effectPrefab: {fileID: 4314295923167288595, guid: 8ed1e3026ffa56f429bd9eb90a048c00, type: 3}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f630858a24f27b4b89eb90cd1878607, type: 3}
+  m_Name: FarAttack
+  m_EditorClassIdentifier: 
+  attackName: Far
+  damage: 10
+  targetSearchRange: 10
+  trajectoryCombo:
+  - {fileID: 11400000, guid: 6f94c67f1e0a4aa2b7ddf36b58db8ca1, type: 2}
+  comboSequence: []
+  comboWindowDuration: 0.4
+  hitboxActiveStart: 0.2
+  hitboxActiveEnd: 0.6
+  hitVFX: {fileID: 0}
+  hitSFX: {fileID: 0}
+  hitPauseDuration: 0
+  screenShakeIntensity: 0

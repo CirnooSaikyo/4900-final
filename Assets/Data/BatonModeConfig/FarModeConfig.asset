@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8c7b6a504938271605142534231809a, type: 3}
+  m_Name: FarModeConfig
+  m_EditorClassIdentifier: 
+  heightAbovePlayer: 1.5
+  distanceFromPlayer: 8
+  followOffset: {x: 0, y: 1.5, z: 2}
+  followSmoothTime: 0.26
+  modeSwitchPositionSmoothTime: 0.12
+  aimHorizontalResponsiveness: 4
+  minHorizontalRadiusFromPlayer: 0.55
+  lateralBypassWeight: 0.65
+  lateralBackDotThreshold: -0.12
+  lateralFrontDotThreshold: 0.4
+  lateralSideBlendCap: 0.82
+  hoverAmplitude: 0.15
+  hoverFrequency: 2
+  orbitSpeed: 20
+  selfRotationSpeed: 90

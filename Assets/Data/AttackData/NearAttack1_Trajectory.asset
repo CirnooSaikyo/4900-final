@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d084173378627374696f6cc1ea21a1d6, type: 3}
+  m_Name: NearAttack1_Trajectory
+  m_EditorClassIdentifier: Assembly-CSharp::BatonTrajectoryData
+  mode: 1
+  arc:
+    useConductingDownbeatProfile: 1
+    prepPhaseRatio: 0.14
+    strikePhaseRatio: 0.52
+    prepLocalPosition: {x: 0.08, y: -0.26, z: 0.28}
+    strikeLocalPosition: {x: 0.18, y: -0.95, z: 1.18}
+    returnLocalPosition: {x: -0.92, y: 0.38, z: 0.74}
+    prepXRotation: 78
+    strikeXRotation: 102
+    returnXRotation: 18
+    phase2LeftArcOffset: 0.34
+    returnSideArcOffset: 0.58
+    returnDip: 0.28
+    returnParabolaPower: 1.85
+    returnRiseDelay: 0
+    returnHorizontalEase: 6
+    returnVerticalEase: 10
+    phaseBlendWidth: 0.16
+    duration: 0.81
+    loops: 0.85
+    phaseOffsetDeg: -120
+    forwardDistance: 1.2
+    sideAmplitude: 0.56
+    baseHeight: 0.02
+    heightAmplitude: 0.14
+    heightFrequency: 1.25
+    rollAmplitude: 58
+    yawAmplitude: 34
+    pitchBase: 14
+    pitchAmplitude: 18
+    spinDegrees: 180
+    phaseEase: 10
+  keyframes:
+  - localPosition: {x: -0.35, y: 0.12, z: -0.2}
+    localEulerAngles: {x: -6, y: -35, z: 18}
+    duration: 0.06
+    positionEase: 1
+    rotationEase: 1
+  - localPosition: {x: -1.1, y: -0.35, z: 1.25}
+    localEulerAngles: {x: -10, y: -132, z: -152}
+    duration: 0.11
+    positionEase: 1
+    rotationEase: 1
+  - localPosition: {x: -0.42, y: -0.12, z: 0.55}
+    localEulerAngles: {x: -4, y: -64, z: -82}
+    duration: 0.08
+    positionEase: 1
+    rotationEase: 1
+  autoReturnToOrigin: 0
+  returnDuration: 0.2
+  returnEase: 10
